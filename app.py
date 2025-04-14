@@ -16,7 +16,7 @@ st.set_page_config(
 st.markdown("""
     <style>
     .main {
-        background-color: #f5f5f5;
+        background-color: #283338;
     }
     .stButton>button {
         background-color: #4CAF50;
