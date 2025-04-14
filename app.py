@@ -37,7 +37,7 @@ st.markdown("""
 st.title("ZuluTech - Classificateur de Prunes Africaine")
 st.markdown("""
     ### Bienvenue dans notre system de classification intelligent de prunes
-    ##Devellopper dans le cadre des journees Camerounaises de l'intelligence artificielle.
+    Devellopper dans le cadre des journees Camerounaises de l'intelligence artificielle.
     
     
     Téléchargez une image de prune et notre modèle vous indiquera sa catégorie :
