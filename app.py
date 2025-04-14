@@ -37,7 +37,7 @@ st.markdown("""
 st.title("ZuluTech - Classificateur de Prunes Africaine")
 st.markdown("""
     ### Bienvenue dans notre system de classification intelligent de prunes
-    Devellopper dans le cadre des journees Camerounaises de l'intelligence artificielle.
+    ##Devellopper dans le cadre des journees Camerounaises de l'intelligence artificielle.
     
     
     Téléchargez une image de prune et notre modèle vous indiquera sa catégorie :
@@ -151,17 +151,17 @@ with col2:
         
         # Style conditionnel pour la prédiction
         if prediction_text == 'unaffected':
-            st.success(f"✅ Prune saine")
+            st.success(f"✅ Prune saine(unaffected)")
         elif prediction_text == 'unripe':
-            st.warning(f"⚠️ Prune non mûre")
+            st.warning(f"⚠️ Prune non mûre(unripe)")
         elif prediction_text == 'spotted':
-            st.warning(f"⚠️ Prune tachetée")
+            st.warning(f"⚠️ Prune tachetée(spoted)")
         elif prediction_text == 'cracked':
-            st.warning(f"⚠️ Prune fissurée")
+            st.warning(f"⚠️ Prune fissurée(cracked)")
         elif prediction_text == 'bruised':
-            st.warning(f"⚠️ Prune meurtrie")
+            st.warning(f"⚠️ Prune meurtrie(bruised)")
         else:
-            st.error(f"❌ Prune pourrie")
+            st.error(f"❌ Prune pourrie(rotten)")
         
         # Détails des probabilités
         st.subheader("📈 Détails des probabilités")
