@@ -29,7 +29,7 @@ Ce projet implémente un modèle de classification d'images pour les prunes afri
 
 1. Clonez le dépôt :
 ```bash
-git clone [URL_DU_REPO]
+git clone https://github.com/harold-Zulu/ZuluTech_JCIA_Hacklaton_2025.git
 ```
 
 2. Créez un environnement virtuel et activez-le :
@@ -97,4 +97,9 @@ Les résultats de l'entraînement sont sauvegardés dans :
 - Seaborn 0.11.0+
 - Pillow 9.0.0+
 - Pandas 1.3.0+
-- Streamlit (pour l'interface utilisateur) 
+- Streamlit (pour l'interface utilisateur)
+
+
+
+Contactez moi via harolddjampa@gmail.com
+ZuluTech
